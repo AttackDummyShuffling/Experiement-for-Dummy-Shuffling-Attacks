@@ -31,9 +31,11 @@ Sbox = [
 Ns = int(sys.argv[1])
 Loci = int(sys.argv[2]) # Recover Loci byte of the first secret round key
 w = int(sys.argv[3]) #window size
-Tp = int(sys.argv[4])
+Nt = int(sys.argv[4])
 m = int(sys.argv[5])
 c = int(sys.argv[6])
+
+Tp = Nt - m
 
 tau = (1-1/Ns)/2 # noise rate of Dummy Shuffle
 
