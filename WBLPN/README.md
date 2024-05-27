@@ -7,22 +7,20 @@ Three verify works are contained in this work, the rate test of the original WBL
 You can use
 
 ```
-Sage ...
+Sage VerRateWBLPN.sage m c
 ```
 
 and 
 
 ```
-Sage ...
+Sage VerRateWBLPN_pool.sage m c Nt
 ```
 to run the rate test work.
+m is the size of verify matrix, c is the threshold value and Nt is the trace used in all the trace.
 Both of the two work operations on random choose trace expect the several nodes are the linear shares.
 
 The command 
 ```
-sage
+sage RunTimeWBLPN.sage Ns Bytei w T
 ```
 is used to test the speedy of the original WBLPN, where it contains the time of running WBLPN against a simuation dummy shuffling as the parameters set in our paper.
-An interesting thing is chosing random row in the pool for Ms in each loop is the mainly time complexity in the operation, which is about 10 times as other code.
-For the purpose of fairness, the time test results in our paper ___do not___ contains this time, since we consider this can be optimized by the precompuations phase.
-That is, this random chosen trace index can be chosen in the offline phase and directly used in the WBLPN operation.
