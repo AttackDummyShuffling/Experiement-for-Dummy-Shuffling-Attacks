@@ -33,7 +33,7 @@ def ComGamma0(Ns, Nt, c):
     
     return gamma0
 
-def SuccessRate(Ns, Nt, c):
+def ComSuccessRate(Ns, Nt, c):
 
     return 1 - ComGamma0(Ns, Nt, c)
  
