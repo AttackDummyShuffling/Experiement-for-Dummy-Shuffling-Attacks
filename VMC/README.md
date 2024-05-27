@@ -7,13 +7,14 @@ Two verify works are contained in this work, the rate test of the VMC-WBLPN (con
 You can use
 
 ```
-Sage ...
+Sage VerRateVMC.sage m c
 ```
 
 and 
 
 ```
-Sage ...
+Sage VerRateVMC_pool.sage m c Nt
 ```
 to run the rate test work.
+m is the size of verify matrix, c is the threshold value and Nt is the trace used in all the attack (Nt = m + Tp).
 Both of the two work operations on random choose trace expect the several nodes are the linear shares.
