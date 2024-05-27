@@ -16,7 +16,7 @@ and
 Sage VerRateWBLPN_pool.sage m c Nt
 ```
 to run the rate test work.
-m is the size of verify matrix, c is the threshold value and Nt is the trace used in all the trace.
+m is the size of verify matrix, c is the threshold value and Nt is the trace used in all the attack (Nt = m + Tp).
 Both of the two work operations on random choose trace expect the several nodes are the linear shares.
 
 The command 
