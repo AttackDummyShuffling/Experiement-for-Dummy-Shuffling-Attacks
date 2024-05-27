@@ -1,6 +1,7 @@
 import hashlib
 import random
-from AnlysisTool import *
+
+from AnlysisTool import *
 
 def addroudkey(U, K, trace):  #U[8],K[8]
     s = [0]*8
@@ -543,7 +544,6 @@ def mixcolumn(U,trace):  #U[32]
     y[29] = x130
     return y
 
-#l=32个与门，h为槽的个数,plaintext[16][8],K[round+1][16][8]
 def ShiftRow(s):
     order = [0, 5, 10, 15, 4, 9, 14, 3, 8, 13, 2, 7, 12, 1, 6, 11]
     s = [s[i] for i in order]
