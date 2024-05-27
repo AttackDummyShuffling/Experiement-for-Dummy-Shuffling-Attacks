@@ -10,7 +10,7 @@ RF=RealField(10000) #To ensure correct probabilistic parameters computation for 
 m = int(sys.argv[1])
 c = int(sys.argv[2])
 W = 10      #Window size
-tau = 1/4  #Noise rate,,change with different SEL-masking scheme
+tau = 1/4  #Noise rate, change with different SEL-masking scheme
 
 # function in file "getParas.sage"
 def getA(Tau, W, Pnfm):
