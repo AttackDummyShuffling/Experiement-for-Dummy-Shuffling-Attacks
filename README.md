@@ -14,4 +14,4 @@ The source code of the speedy and success rate test is displayed in the folder "
 Finally, the source code of correspding test work of our verify-matrix-changed WBLPN is in "VMC" folder.
 
 Our WBLPN code references the work of
-https://github.com/cryptolu/whitebox-LPN
+https://github.com/cryptolu/whitebox-LPN.
