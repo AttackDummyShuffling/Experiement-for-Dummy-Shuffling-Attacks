@@ -12,6 +12,8 @@ Sage VerRateWBLPN.sage m c
 
 and 
 
+
+
 ```
 Sage VerRateWBLPN_pool.sage m c Nt
 ```
@@ -21,6 +23,7 @@ Both of the two work operations on random choose trace expect the several nodes 
 
 The command 
 ```
-sage RunTimeWBLPN.sage Ns Bytei w T
+Sage VerRateWBLPN_pool.sage Ns Bytei w Nt m c
 ```
 is used to test the speedy of the original WBLPN, where it contains the time of running WBLPN against a simuation dummy shuffling as the parameters set in our paper.
+The recovery partial secret key is its Bytei-th bye, Ns is the slot number in dummy shuffling, w is the window size.
